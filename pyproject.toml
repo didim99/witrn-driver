@@ -1,3 +1,16 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version", "dependencies"]
+name = "witrn-driver"
+requires-python = ">= 3.8"
+description = "Driver for reading data from modern WITRN meters"
+readme = "readme.md"
+authors = [
+  {name = "didim99"},
+]
+
+[project.urls]
+Source = "https://github.com/didim99/witrn-driver"
