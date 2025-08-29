@@ -13,4 +13,7 @@ setup(name='witrn-driver',
       install_requires=deps,
       packages=find_packages(),
       zip_safe=True,
-      platforms='any')
+      platforms='any',
+      package_data={
+          '': [str(reqs_file)],
+      })

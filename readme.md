@@ -5,12 +5,19 @@ such as U3, U3L, A2, and C4 (tested). A2L and C4L can
 also be supported theoretically but I don't have hardware
 for testing.
 
-Driver can be installed as python package using `pip install`
-or `pip install -e` for local development.
+## Installation
+
+Available on PyPI:
+```shell
+pip install witrn-driver
+```
+
+Driver can be installed as python package
+using  `pip install -e` for local development.
 
 ## Related projects
 
-* [Bokeh-based UI](https://github.com/Fescron/witrn-ui-bokeh) by @Fescron
+* [Bokeh-based UI](https://github.com/Fescron/witrn-ui-bokeh) by [@Fescron](https://github.com/Fescron)
 
 ## Examples
 
