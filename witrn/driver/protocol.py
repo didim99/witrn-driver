@@ -1,7 +1,7 @@
 from array import array
 from enum import Enum
 from typing import List
-from driver.binutils import Binary, BinaryType, Byte, Word, Dword, Float
+from witrn.driver.binutils import Binary, BinaryType, Byte, Word, Dword, Float
 
 
 class DeviceInfo:

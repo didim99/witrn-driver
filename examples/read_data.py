@@ -1,8 +1,9 @@
 import sys
 import time
 from datetime import timedelta
-from driver import USBMeter
-from driver.protocol import KnownDevice, HIDPacket, Command
+
+from witrn.driver import USBMeter
+from witrn.driver.protocol import KnownDevice, HIDPacket, Command
 
 
 class Main:

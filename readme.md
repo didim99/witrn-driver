@@ -1,15 +1,21 @@
-# WITRN UI
+# WITRN driver
 
-This simple utility demonstrates Proof of Concept
-for reading data from modern WITRN USB-meters such as
-U3, U3L, A2, and C4 (tested). A2L and C4L can also be
-supported theoretically but I don't have hardware for
-testing. Is there no any *UI* yet, but it is possible
-in the future.
+Driver for reading data from modern WITRN USB-meters
+such as U3, U3L, A2, and C4 (tested). A2L and C4L can
+also be supported theoretically but I don't have hardware
+for testing.
 
----
+Driver can be installed as python package using `pip install`
+or `pip install -e` for local development.
 
-Sample output:
+## Related projects
+
+* [Bokeh-based UI](https://github.com/Fescron/witrn-ui-bokeh) by @Fescron
+
+## Examples
+
+Sample output of [`exmaples/read_data.py`](examples/read_data.py):
+
 ```
 Connect your device and press Enter
 No kernel driver attached
@@ -22,7 +28,7 @@ Press Enter to stop reading
 Good bye!
 ```
 
----
+## Limitations
 
 **Note!** For Windows users, if you see message `Device not found!` when device is
 actually connected, try use [zadig](https://github.com/pbatard/libwdi/releases)
