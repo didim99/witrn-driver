@@ -12,6 +12,8 @@ ATTRS{idVendor}=="0716", ATTRS{idProduct}=="5045", MODE="0666"
 ATTRS{idVendor}=="0716", ATTRS{idProduct}=="5050", MODE="0666"
 # WITRN C4
 ATTRS{idVendor}=="0716", ATTRS{idProduct}=="5053", MODE="0666"
+# WITRN K2
+ATTRS{idVendor}=="0716", ATTRS{idProduct}=="5060", MODE="0666"
 
 # FNIRSI FNB48
 ATTRS{idVendor}=="0483", ATTRS{idProduct}=="003a", MODE="0666"
