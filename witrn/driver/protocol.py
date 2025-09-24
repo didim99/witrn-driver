@@ -27,7 +27,8 @@ class KnownDevice(Enum):
     A2 = DeviceInfo(name='A2', vid=0x0716, pid=0x5045, ep=0x81)
     A2L = DeviceInfo(name='A2L', vid=0x0716, pid=0x5050, ep=0x81)
     C4 = DeviceInfo(name='C4', vid=0x0716, pid=0x5053, ep=0x81)
-    K2 = DeviceInfo(name='K2',vid=0x0716, pid=0x5060, ep=0x81)
+    K2 = DeviceInfo(name='K2', vid=0x0716, pid=0x5060, ep=0x81)
+
 
 class Command:
     DAT_RECV = 0x1a     # Data packet received

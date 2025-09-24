@@ -5,6 +5,16 @@ such as U3, U3L, A2, and C4 (tested). A2L and C4L can
 also be supported theoretically but I don't have hardware
 for testing.
 
+## Supported hardware
+
+* Tested by community:
+  * [WITRN U3 & U3L](https://www.witrn.com/?p=92)
+  * [WITRN A2](https://www.witrn.com/?p=88)
+  * [WITRN C4](https://www.witrn.com/?p=2169)
+  * [WITRN K2](https://www.witrn.com/?p=2105)
+* Not tested bot probably should works:
+  * [WITRN A2L](https://www.witrn.com/?p=88)
+
 ## Installation
 
 Available on PyPI:
